@@ -1,7 +1,3 @@
-[![Build Status](https://travis-ci.com/s12v/go-jwks.svg?branch=master)](https://travis-ci.com/s12v/go-jwks)
-[![codecov](https://codecov.io/gh/s12v/go-jwks/branch/master/graph/badge.svg)](https://codecov.io/gh/s12v/go-jwks)
-# go-jwks
-
 A Go library to retrieve RSA public keys from a JWKS (JSON Web Key Set) endpoint.
 
 ## Installation
@@ -9,7 +5,7 @@ A Go library to retrieve RSA public keys from a JWKS (JSON Web Key Set) endpoint
 Using [Go modules](https://github.com/golang/go/wiki/Modules)
 
 ```bash
-go get github.com/s12v/go-jwks@v0.2.0
+go get github.com/guftall/go-jwks@v0.2.0
 ```
 
 ## Dependencies
@@ -25,7 +21,7 @@ go get github.com/s12v/go-jwks@v0.2.0
 package main
 
 import (
-	"github.com/s12v/go-jwks"
+	"github.com/guftall/go-jwks"
 	"github.com/square/go-jose"
 	"time"
 	"log"

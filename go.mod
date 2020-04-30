@@ -1,4 +1,4 @@
-module github.com/guftall/go-jwks
+module github.com/guftall/go-jwks2
 
 go 1.12
 
